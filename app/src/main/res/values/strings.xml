@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Sounds For Children</string>
+    <string name="bahasa">Language</string>
+    <string name="alat_musik">Musicial Instrument</string>
+    <string name="binatang">Animal</string>
+    <string name="skor">SCORE</string>
+    <string name="sound_s_for_children">Sound\'s for Children</string>
+    <string name="belajar_suara">Belajar Suara</string>
+    <string name="permainan">Permainan</string>
+    <string name="macam_macam_suara">Suara - Suara</string>
+
+    <string name="belajar_suara_inggris">Learning Sound</string>
+    <string name="permainan_inggris">Game</string>
+    <string name="macam_macam_suara_inggris">Sounds</string>
+
+    <string name="hewan_dan_binatang">Animals</string>
+    <string name="hewan_dan_binatangIndonesia">Hewan dan Binatang</string>
+    <string name="fruit">Fruits</string>
+    <string name="buah">Buah - Buahan</string>
+    <string name="menu_utama">MAIN MENU</string>
+    <string name="congratulation_your_score">Congratulation Your Score</string>
+    <string name="kanan">kanan</string>
+    <string name="kiri">kiri</string>
+    <string name="low"></string>
+    <string name="high"></string>
+    <string name="kuis">Kuis</string>
+    <string name="kuis_bahasaInggris">Quiz</string>
+    <string name="sapi">Cow</string>
+    <string name="ayam">Ayam</string>
+    <string name="kodok">Frog</string>
+    <string name="about">About</string>
+    <string name="credits">Credits</string>
+</resources>

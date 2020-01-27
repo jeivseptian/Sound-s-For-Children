@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.d3ifcool.soundforchildrens">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Game.GameBahasaIndonesia.SapiGame"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.SapiResult"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.PirGame"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.PirResult"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.LemonGame"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.LemonResult"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.UlarResult"></activity>
+        <activity android:name=".Game.GameBahasaIndonesia.UlarGame" />
+        <activity android:name=".Game.GameBahasaIndonesia.KucingResult" />
+        <activity android:name=".Game.GameBahasaIndonesia.KucingGame" />
+        <activity android:name=".Game.GameBahasaIndonesia.BebekResult" />
+        <activity android:name=".Game.GameBahasaIndonesia.BebekGame" />
+        <activity android:name=".Game.GameBahasaInggris.CowResult" />
+        <activity android:name=".Game.GameBahasaInggris.CowGame" />
+        <activity android:name=".Game.GameBahasaInggris.LimeResult" />
+        <activity android:name=".Game.GameBahasaInggris.LimeGame" />
+        <activity android:name=".Game.GameBahasaInggris.DuckResult" />
+        <activity android:name=".Game.GameBahasaInggris.DuckGame" />
+        <activity android:name=".Game.GameBahasaInggris.PearResult" />
+        <activity android:name=".Game.GameBahasaInggris.PearGame" />
+        <activity android:name=".Game.GameBahasaInggris.CatResult" />
+        <activity android:name=".Game.GameBahasaInggris.CatGame" />
+        <activity android:name=".Kuis.BahasaIndonesia.HasilActivity" />
+        <activity
+            android:name=".Kuis.BahasaIndonesia.KuisActivity"
+            android:parentActivityName=".Others.MainActivity" />
+        <activity
+            android:name=".Suara.Indonesia.BuahActivityIndonesia"
+            android:parentActivityName=".Suara.Indonesia.SuaraActivity" />
+        <activity
+            android:name=".Suara.Indonesia.BinatangHewanIndonesiaActivity"
+            android:parentActivityName=".Suara.Indonesia.SuaraActivity" />
+        <activity
+            android:name=".Suara.Indonesia.SuaraActivity"
+            android:parentActivityName=".Others.MainActivity" />
+        <activity
+            android:name=".Others.MainActivityBahasaInggris"
+            android:parentActivityName=".Others.KategoriBahasaActivity" />
+        <activity android:name=".Others.KategoriBahasaActivity" />
+        <activity android:name=".Petunjuk.WalkthroughtActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kuis.BahasaInggris.HasilKuisActivity" />
+        <activity
+            android:name=".Kuis.BahasaInggris.QuizActivity"
+            android:parentActivityName=".Others.MainActivity" />
+        <activity
+            android:name=".Profile.AboutActivity"
+            android:parentActivityName=".Others.MainActivity" />
+        <activity
+            android:name=".Profile.CreditActivity"
+            android:parentActivityName=".Others.MainActivity" />
+        <activity
+            android:name=".Suara.Inggris.BuahActivity"
+            android:parentActivityName=".Suara.Inggris.Sounds" />
+        <activity
+            android:name=".Suara.Inggris.BinatangHewan"
+            android:parentActivityName=".Suara.Inggris.Sounds" />
+        <activity
+            android:name=".Suara.Inggris.Sounds"
+            android:parentActivityName=".Others.MainActivity" />
+        <activity
+            android:name=".Others.MainActivity"
+            android:parentActivityName=".Others.KategoriBahasaActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
